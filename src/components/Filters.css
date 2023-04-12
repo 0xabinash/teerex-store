@@ -1,0 +1,20 @@
+.container-filters{
+    /* position: fixed; */
+    box-sizing: border-box;
+    margin-top: 1rem;
+    padding: 1rem 1rem 1rem 3rem;
+    background-color: rgb(218, 204, 187);
+    width: 100%;
+    position: sticky;
+    top: 10rem;
+}
+
+input{
+    cursor: pointer;
+}
+
+@media screen and (max-width: 823px) {
+    .container-filters{
+        display: none;
+    }
+}

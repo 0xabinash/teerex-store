@@ -1,0 +1,40 @@
+.individual-product{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(220, 196, 167);
+}
+
+.filter-nothing-found{
+    font-size: 3rem;
+    margin-left: 10rem;
+    margin-top: 10rem;
+}
+
+@media screen and (max-width: 821px) {
+
+    .filter-nothing-found{
+        font-size: 3rem;
+        display: flex;
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 400px) {
+
+    .filter-nothing-found{
+        font-size: 3rem;
+        display: flex;
+        margin-left: 5rem;
+    }
+}
+
+@media screen and (max-width: 365px) {
+
+    .filter-nothing-found{
+        font-size: 3rem;
+        display: flex;
+        justify-content: space-around;
+        position: absolute;
+        right: 0;
+    }
+}
